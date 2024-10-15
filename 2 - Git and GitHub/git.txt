@@ -1,19 +1,15 @@
 
-- Git version
-
+=== Git version ===
 git --version
 
- 
-- Configure Git
-
+=== Configure Git ===
 git config --global user.name "username"
 git config --global user.email "email"
 git config user.name
 git config user.email
 
  
-
-- Legends
+ Legends:
 
 U - Untracked
 
@@ -21,64 +17,47 @@ A - Added
 
 M - Modified
 
- 
-
-- Initialized Repository
-
+=== Initialized Repository ===
 git init
 
- 
+========================
+=== Git Three Stage ====
+========================
 
-- Git Three Stage
-
- 
-
-- Check the status
-
+=== Check the status ===
 git status
 
- 
-
-- Add file to the staging are
-
+=== Add file to the staging area ===
 git add .
 
- 
-
-- Create a commit 
-
+=== Create a commit === 
 git commit -m "This is a description"
 
-- Show the history
+=== Show the history ===
 git log
 
-- shorter history 
+=== shorter history === 
 git log --oneline
 
-- List all branches
-
+=== List all branches ===
 git branch -a
 
- 
-
-- Create a branch
-
+ === Create a branch ===
 git branch [branch_name]
 
  
-
-- Switch to a different branch
-
+=====================================
+=== Switch to a different branch  ===
+===================================== 
 git checkout [branch_name]
-
 git switch [branch_name]
 
-- Merging branch to the main branch
-
+=== Merging branch to the main branch ===
 git merge [branch_name]
 
  
-
-- Delete a branch
-
+=== Delete a branch ===
  git branch -d feature
+
+==== To check the path of Repository ===
+ git remote -v
