@@ -73,4 +73,12 @@ git checkout [branch_name]
 
 git switch [branch_name]
 
-THIS WILL BE ADDED TO THE FEATURE BRANCH
+- Merging branch to the main branch
+
+git merge [branch_name]
+
+ 
+
+- Delete a branch
+
+ git branch -d feature
