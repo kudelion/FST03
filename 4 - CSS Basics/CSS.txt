@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="styling-essentials.css">
+
+styling-essentials.css
+
+
+/* Font fallback - if not available it will choose the next font that it have. */
+
+    /* Default Font Style for san-serif - Arial */
+
+    font-family:'Courier New', Courier, monospace;
+
+/* Font Weight */
+
+    font-weight: 100;
+
+    font-weight: 200;
+
+    font-weight: 300;
+
+    font-weight: 400;
+
+    font-weight: 500;
+
+    font-weight: 600;
+
+    font-weight: 700;
+
+    font-weight: 800;
+
+    font-weight: 900;
+
+    font-weight: 950;
+
+/* Font Style */
+
+    font-style: italic;
+
+    font-style: oblique;
+
+    font-style: normal;
+
+
+/* Text Align */
+
+    text-align: center;
+
+    text-align: left;
+
+    text-align: right;
+
+    text-align: justify;
+
+/* Line Height */
+
+    line-height: normal;
+
+    line-height: 3;
+
+    line-height: 150%;
+
+    line-height: 25px;
+
+
+
+

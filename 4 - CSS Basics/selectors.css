@@ -1,0 +1,38 @@
+span{
+    color: brown;
+    background-color: aquamarine;
+
+}
+
+.intro-paragraphs{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+#main-heading{
+    color: green;
+    font-size: 40px;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2, h1, .about-content{
+    color: blueviolet;
+}
+
+.article-container p {
+    color: orange;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+a:hover{
+    color: red;
+    background-color: greenyellow;
+}
+
+a:active{
+    color: tomato;
+}

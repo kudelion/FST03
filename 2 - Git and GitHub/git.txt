@@ -33,6 +33,12 @@ git add .
 === Create a commit === 
 git commit -m "This is a description"
 
+===  Add a remote repository to a local Git installation === 
+git remote add origin https://github.com/username/xxxx.git
+
+==== To push to a repository ===
+git push -u origin master
+
 === Show the history ===
 git log
 
